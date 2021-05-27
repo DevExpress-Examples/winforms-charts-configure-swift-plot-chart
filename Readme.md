@@ -5,10 +5,8 @@
 <!-- default file list end -->
 # How to create a real-time chart
 
+The following example demonstrates how to create a real-time chart which uses a [Swift Plot](https://docs.devexpress.com/WindowsForms/7093/controls-and-libraries/chart-control/series-views/2d-series-views/swift-plot-series-view?p=netframework) series at runtime.
 
-<p>The following example demonstrates how to create a real-time chart which uses a <a href="http://www.devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument7093.htm">Swift Plot</a> series at runtime.<br /><br /></p>
-<p>Note that this series view type is associated with the <a href="http://www.devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument7177.htm">Swift Plot Diagram</a> type, and you should cast your <a href="http://devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument6017.htm">diagram</a> object to this type, in order to access its specific options.<br /><br />Starting from v2014 vol 1, text pattern properties (<a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsAxisLabel_TextPatterntopic">AxisLabel.TextPattern</a>, <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsSeriesLabelBase_TextPatterntopic">SeriesLabelBase.TextPattern</a>, <a href="https://documentation.devexpress.com/#CoreLibraries/DevExpressXtraChartsSeriesBase_LegendTextPatterntopic">SeriesBase.LegendTextPattern</a>) have been introduced instead of point options. <br /><br /></p>
+Note that this series view type is associated with the [Swift Plot Diagram](https://docs.devexpress.com/WindowsForms/7177/controls-and-libraries/chart-control/diagram/swift-plot-diagram?p=netframework) type, and you should cast your [diagram](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Diagram?p=netframework) object to this type, in order to access its specific options.
 
-<br/>
-
-
+Starting from v14.1, text pattern properties ([AxisLabel.TextPattern](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.AxisLabel.TextPattern?p=netframework), [SeriesLabelBase.TextPattern](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SeriesLabelBase.TextPattern?p=netframework), [SeriesBase.LegendTextPattern](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraCharts.SeriesBase.LegendTextPattern?p=netframework)) have been introduced instead of point options.
