@@ -8,8 +8,6 @@
 
 The following example shows how to use a [Swift Plot](https://docs.devexpress.com/WindowsForms/7093/controls-and-libraries/chart-control/series-views/2d-series-views/swift-plot-series-view?p=netframework) series to create a real-time chart at runtime.
 
-![images](./image/realtimechart.gif)
-
 The Swift Plot series view type is associated with the [Swift Plot Diagram](https://docs.devexpress.com/WindowsForms/7177/controls-and-libraries/chart-control/diagram/swift-plot-diagram?p=netframework) type. Cast your [diagram](https://docs.devexpress.com/WindowsForms/DevExpress.XtraCharts.ChartControl.Diagram?p=netframework) object to this type to access its options.
 
 ## Files to Review
